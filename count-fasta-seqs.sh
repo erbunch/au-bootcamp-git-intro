@@ -102,6 +102,7 @@ do
 	total=$(expr $total + $cnt)
 	echo "$cnt $filename"
 done
+
 total=0
 for filepath in "$@"
 do
